@@ -5,7 +5,7 @@ import pl.lublin.wsei.java.cwiczenia.Infografika;
 
 public class TestGusInfoGraphicList {
     public static void main(String[] args){
-        GusInfoGraphicList list = new GusInfoGraphicList("C:\\java\\lab4\\src\\main\\gusInfoGraphic.xml");
+        GusInfoGraphicList list = new GusInfoGraphicList("./src/main/gusInfoGraphic.xml");
         for (Infografika ig: list.infografiki) ig.print();
     }
 }
